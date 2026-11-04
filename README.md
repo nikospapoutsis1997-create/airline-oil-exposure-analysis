@@ -32,7 +32,7 @@ window functions (LAG, STDEV)
 
 - `notebooks/` - Python notebooks for data acquisition, cleaning and EUR conversion
 - `sql/` - T-SQL scripts: views, CTEs, stored procedure, window-function calculations
-- `dashboard/` - Power BI file (.pbix)
+- `dashboard/` - Power BI file (`airlines_oil_shocks.pbix`).
 - `screenshots/` - Dashboard page images used in this README
 
 ## Data
