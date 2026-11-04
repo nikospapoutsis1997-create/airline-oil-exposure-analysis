@@ -31,7 +31,7 @@ window functions (LAG, STDEV)
 ## Repository Structure
 
 - `notebooks/` - Python notebooks for data acquisition, cleaning and EUR conversion
-- `sql/` - T-SQL scripts: views, stored procedure, window-function calculations
+- `sql/` - T-SQL scripts: views, CTEs, stored procedure, window-function calculations
 - `dashboard/` - Power BI file (.pbix)
 - `screenshots/` - Dashboard page images used in this README
 
@@ -81,7 +81,7 @@ correction (yfinance returns some UK tickers in GBp, not GBP)
 ## Key Findings
 
 1. **Oil's explanatory power is highly regime-dependent.**
-	R² is roughly 0-3% in calm periods but rises to 40-55% (28-day window,see Finding#6) during the most acute phase of the 2026 Iran-Israel-US conflict.
+	R² is roughly 0-3% in calm periods but rises to 40-55% (28-day window,see Finding 6), during the most acute phase of the 2026 Iran-Israel-US conflict.
 2. **The sign of the relationship flips with the type of shock.**
 	Demand-driven shocks (Covid-19) produced *positive* beta (oil and airlines fell together),
 	cost-driven shocks (Ukraine, Iran) produced *negative* beta (oil up, airlines down).
@@ -96,7 +96,7 @@ correction (yfinance returns some UK tickers in GBp, not GBP)
 	Both the Ukraine and Iran windows show measurable activity in the weeks before the official conflict started.
 6. **Very short analysis windows (under 30 trading days) are statistically unreliable.**
    An earlier version with a 9-day acute Ukraine window produced inconsistent,unusable results,
-   so shock windows were widened. The one exception is acute Iran-Iran (28 trading days),
+   so shock windows were widened. The one exception is Acute Iran (28 trading days),
    so its result should be read with caution.
    
 ## Limitations
