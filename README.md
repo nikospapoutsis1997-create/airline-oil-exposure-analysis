@@ -73,7 +73,7 @@ correction (yfinance returns some UK tickers in GBp, not GBP)
 ## Key Findings
 
 1. **Oil's explanatory power is highly regime-dependent.**
-	R² is under 1% in calm periods but rises to 40-55% during the most acute phase of the 2026 Iran-Israel war.
+	R² is under 0-3% in calm periods but rises to 40-55% during the most acute phase of the 2026 Iran-Israel war.
 2. **The sign of the relationship flips with the type of shock.**
 	Demand-driven shocks (Covid-19) produced *positive* beta (oil and airlines fell together),
 	cost-driven shocks (Ukraine, Iran) produced *negative* beta (oil up, airlines down).
